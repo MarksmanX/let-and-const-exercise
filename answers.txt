@@ -1,0 +1,20 @@
+let PI = 3.14
+PI = 42
+
+1. Var gets hoisted to the top of the code, so that it runs first. Let does not do this.
+Also, Var variables can be reassigned with var, which will overwrite the original variable. Let 
+cannot be reassigned with let, instead you can change the value of the variable by saying
+the variable equals something new. Var is function-scoped, and let is block-scoped.
+
+2. Var gets hoisted to the top of the code, so that it runs first. Const does not do this.
+Also, Var variables can be reassigned with var, which will overwrite the original variable. Const 
+cannot be reassigned, and also cannot be changed in the value even with saying the variable equals
+something new. Const is also block-scoped, and var is function-scoped.
+
+3. They are both block-scoped. Let variables can be changed by setting the variable equal to 
+something new. Let variables can be used to increment in a looping block. Const variables cannot
+do these things. You can change the inner properties of arrays and objects in a const variable though.
+
+4. Hoisting is when a var variable is defined at the top of the code block so that it exists before 
+the other code is executed. Function declarations are also hoisted and can be invoked “before” they 
+are defined in a codebase.
